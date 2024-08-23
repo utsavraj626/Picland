@@ -36,7 +36,7 @@ const {
          
         })
   
-        //console.log("SIGNUP API RESPONSE............", response)
+        // console.log("SIGNUP API RESPONSE............", response);
   
         if (!response.data.success) {
           throw new Error(response.data.message)

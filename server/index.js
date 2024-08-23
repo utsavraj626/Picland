@@ -23,7 +23,8 @@ app.use(
 	cors({
 		
 		// origin: "http://localhost:3000",
-		origin:"https://picland.vercel.app",
+		// origin: "*",
+		origin:"https://picland-azure.vercel.app/",
 		credentials: true,
 	})
 );
