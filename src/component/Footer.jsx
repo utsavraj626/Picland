@@ -37,25 +37,29 @@ export default function Footer() {
 
            {/* social section */}
            <div className='mt-8'>
-              <div className='flex-col space-y-4 text-[#B5B4AF]'>
-                <span className='text-white'>SOCIAL</span>
-              </div>
-          
-              <div className='flex space-x-4 mb-6 mt-4'>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
-                  <FaSquareXTwitter size={24} />
-                </a>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-700">
-                  <FaInstagram size={24} />
-                </a>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:text-blue-900">
-                  <FaFacebook size={24} />
-                </a>
-                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
-                  <FaLinkedin size={24} />
-                </a>
-              </div>
-            </div>
+  <div className='flex-col space-y-4 text-[#B5B4AF]'>
+    <span className='text-white'>SOCIAL</span>
+  </div>
+
+  <div className='flex flex-col space-y-4 mb-6 mt-4 ml-4'>
+    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+      <FaSquareXTwitter size={24} />
+    </a>
+
+    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-700">
+      <FaInstagram size={24} />
+    </a>
+
+    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:text-blue-900">
+      <FaFacebook size={24} />
+    </a>
+
+    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
+      <FaLinkedin size={24} />
+    </a>
+  </div>
+</div>
+
 
         </div><hr className='w-[90%] border-gray-700 m-auto mt-10'/>
         <div className='lg:flex md:flex mt-7 justify-between w-[88%] m-auto'>
